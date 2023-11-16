@@ -1,0 +1,54 @@
+.trolley {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  flex-direction: column;
+  /* height: 104px; */
+}
+
+#fullscreen {
+  cursor: pointer;
+}
+
+.input-group {
+  width: auto;
+}
+
+.main {
+  height: calc(100vh - 80px - 88px - 96px);
+  padding: 20px;
+}
+
+.scan-area {
+  margin-top: 16vh;
+  display: flex;
+}
+
+#canvas {
+  width: 100%;
+}
+
+#goods {
+  height: 72vh;
+  overflow: auto;
+}
+
+.card {
+  --bs-card-title-spacer-y: 24px;
+  height: fit-content;
+  margin: 0 20px 12px 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.check {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.total_money {
+  font-size: 2rem;
+  font-weight: bold;
+}
